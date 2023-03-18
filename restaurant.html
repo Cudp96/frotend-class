@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Junction Cafe And Bar</title>
+</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: satisfy, cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url(assets/momo\ photo.jpg);
+        color: white;
+        font-weight: bold;
+      }
+      .left {
+        
+        display: inline-block;
+        position: absolute;
+        left: 43px;
+        top: 18px;
+        line-height: 5px;
+      }
+      .mid {
+        border: 2px solid rgb(25, 0, 255);
+        display: block;
+        width: 33%;
+        margin: 18px auto;
+        border-radius: 8px;
+      }
+      
+      .right {
+        display: inline-block; 
+        position: absolute; /* absolute changes from parent box however relative changes from it's position */
+        right: 34px;
+        top: 18px;
+      }
+      .navbar {
+        display: inline-block;
+        text-decoration: none;
+      }
+      .navbar li {
+        display: inline-block;
+      }
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 23px;
+        font-size: 18px;
+      }
+      .navbar li a:hover,
+      .navbar li a.active {
+        color: rgb(66, 162, 185);
+        text-decoration: underline;
+      }
+      .left img {
+        width: 100px;
+        border-radius: 50px;
+      }
+      .btn{
+        margin: 0px 5px;
+        color: white;
+        background-color: black;
+        padding: 8px 4px;
+        border: 2px solid pink;
+        font-size: 13px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: satisfy, cursive;
+      }
+      .btn:hover{
+        background-color: rgb(66, 162, 185);
+      }
+     /** .container{
+        border: 2px solid greenyellow;
+        margin: auto;
+        padding: 2px 2px;
+        width: 33%;
+        border-radius: 5px;
+        text-align: center;
+      }
+      **/
+      .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 45%;
+        border-radius: 28px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        left: 15%;
+    }
+      .form-group input {
+        font-family: 'satisfy', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img src="/assets/juntion logo.jpeg" alt="Logo of cafe" />
+      </div>
+      <!-- Mid box for Nav Bar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" clas="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Fees</a></li>
+        </ul>
+      </div>
+      <!-- Right box for buttons -->
+      <div class="right">
+        <button class="btn">Call us now</button
+        ><button class="btn">Email us asap</button>
+      </div>
+    </header>
+    <div class="container">
+           | Form For Inquiry |
+           <form action="noaction.php">
+              <div class="form-group">
+                <label for="firstName">First Name :</label>
+                <input type="text" id="firstName" placeholder="Enter Your First Name">
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name : </label>
+                <input type="text" id="lastName" placeholder="Enter Your Last Name">
+              </div>
+            <div class="form-group">
+              <label for="userEmail">Email : </label>
+              <input type="email" id="userEmail" placeholder="Enter Your Email">
+          </div>
+          <div class="form-group">
+            <label for="user-dob">Date Of Birth : </label>
+            <input type="date" id="user-dob" placeholder="Enter Your Last Name">
+          </div>
+          <button class="btn">Submit</button>
+           </form>
+    </div>
+
+  </body>
+</html>

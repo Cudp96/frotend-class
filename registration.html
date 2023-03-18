@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      .mydiv {
+        background-color: bisque;
+        display: grid;
+      }
+      .firstname {
+        font-size: 250;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        margin: 25px;
+      }
+
+      .lastname {
+        margin-left: 50%;
+      }
+      .secDiv {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mydiv">
+      <form>
+        <label for="firstName" class="firstname">First Name:</label>
+        <input
+          type="text"
+          placeholder="Enter Your First Name: "
+          id="firstName"
+        />
+        <label class="lastname" for="lastName">Last Name:</label>
+        <input type="text" placeholder="Enter Your last Name: " id="lastName" />
+        <div class="secDiv">
+          <label for="userEmail">Email :</label>
+          <input
+            type="email"
+            id="userEmail"
+            placeholder="Enter Your Email"
+          />
+          <label class="lastname" for="phone-number">Phone-Number:</label>
+          <input
+            type="tel "
+            maxlength="10"
+            name="phone-number"
+            placeholder="Enter Your phone number"
+            id="phone-number"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
