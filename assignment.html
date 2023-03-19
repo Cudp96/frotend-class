@@ -22,7 +22,23 @@
       border-radius: 10px;
       font-family: "Cormorant Garamond", serif;
       font-weight: 700;
+      /*animation-name: zoom-in-and-out;
+      animation-duration: 5s;
+      animation-timing-function: ease-in-out;
     }
+    @keyframes zoom-in-and-out {
+      from{
+          width: 50%;
+      }
+      to {
+        width:80%;
+      }
+    
+    }*/
+    
+  }
+      
+
     .photo {
       display: inline-block;
       position: relative;
@@ -42,26 +58,65 @@
       text-decoration: none;
       border-radius: 10px;
       background-color: #7db9b6;
-      color: #e96479;
+      color: #2D2727;
+      animation-name: virat;
+      animation-duration: 2s;
+      animation-timing-function: ease-out;
+      overflow: hidden;
+    }
+    @keyframes virat {
+      from{
+        height: 10vh;
+
+      }
+      to{
+        height:95vh;
+      }
     }
     .achievement {
       border: 2px solid ;
       display: inline-block;
       position: absolute;
       top: 260px;
-      width: 250px;
-      height: 350px;
+      width: 260px;
+      height: 60px;
       left: 3px;
-      background-color: #3a98b9;
+      background-color:  #0c84f5;
       color: #ffea20;
       border-radius: 15px;
+      transition: all 0.5s ease-in-out;
+      overflow: hidden;
+    }
+    .achievement:hover{
+      width:260px;
+      height:350px;
+      background-color: #136583;
+      
     }
     .photo img {
       margin: 2px 4px;
       height: 240px;
       width: 245px;
-      border-radius: 30px;
+      border-radius: 60px;
+      animation-name: photo;
+      animation-duration: 2s;
+      animation-timing-function: ease-out;
     }
+    @keyframes photo {
+      from {
+        width: 150px;
+        height: 150px;
+        opacity: 0%;
+        
+      }
+      to {
+        width: 245px;
+        height: 240px;
+        border-radius: 60px;
+        opacity: 100%;
+      }
+    }
+    
     .descrption h3 {
       font-size: 30px;
       font-family: "Courier New", Courier, monospace;
