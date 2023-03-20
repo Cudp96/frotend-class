@@ -1,92 +1,114 @@
 body {
-    margin: 0;
-    background: linear-gradient(to right bottom, lightgreen , rgb(241, 169, 61) , rgb(239, 241, 90));
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-family: "Pacifico", cursive;
+  margin: 0;
+  background: linear-gradient(
+    to right bottom,
+    lightgreen,
+    rgb(241, 169, 61),
+    rgb(239, 241, 90)
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+  color: brown;
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    width: 30%;
-    color: brown;
-    opacity: 83%;
-    height: 40%;
-    overflow: hidden;
+  max-width: 50%;
+  border-radius: 15px;
+  margin: 0px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color: brown;
+  opacity: 83%;
+}
 
+.container:hover {
+    background-color: rgba(255, 255, 255, 0.2.5);
+  opacity: 100%;
 }
-.container:hover{
-    opacity: 100%;
-   
-}
+
 
 .heading {
-    margin-bottom: 15px;
-    font-family: "Pacifico", cursive;
-    font-size: 25px;
-    letter-spacing: 4px;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    
+  margin-bottom: 15px;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  letter-spacing: 4px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.email {
-    font-family: "Pacifico", cursive;
-    margin-bottom: 5px;
+a {
+  color: brown;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
 }
 
-.password {
-    font-family: "Pacifico", cursive;
-    margin-bottom: 5px;
+a:hover {
+  font-size: 18px;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
 }
 
-.input {
-    display: flexbox;
-    align-items: center ;
-    justify-self: initial;
-    padding: 6px;
+.form-body {
+    padding: 5px 10px;
+    overflow: hidden;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
 }
-
-.input:hover {
+.row {
+    display: flex;
+}
+.input-group {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+    input[type="text"],
+    [type="email"],
+    [type="password"] {
+      display: flexbox;
+      align-items: center;
+      justify-self: initial;
+      padding: 6px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.4);
+      outline: none;
+      border: hidden;
+    }
+    
+input:hover {
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
-}
-
-.btn {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 15px;
-    border-radius: 5px;
-    font-family: "Pacifico", cursive;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    color: brown;
-
-}
-
-.btn:hover {
-
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.a {
-    color: brown;
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
-}
-
-.a:hover {
-    font-size: 18px;
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
-}
+  }
+    
+    .radio-group {
+      display: flex;
+    }
+    .radio-group div {
+      flex: 1;
+    }
+    button {
+      background-color: rgba(255, 255, 255, 0.3);
+      border: none;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+      font-family: "Pacifico", cursive;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      color: brown;
+    }
+    button:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    @media only screen and (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+  
