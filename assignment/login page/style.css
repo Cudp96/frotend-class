@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right bottom, lightgreen , rgb(241, 169, 61) , rgb(239, 241, 90));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Pacifico", cursive;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    width: 30%;
+    color: brown;
+    opacity: 83%;
+    height: 40%;
+    overflow: hidden;
+
+}
+.container:hover{
+    opacity: 100%;
+   
+}
+
+.heading {
+    margin-bottom: 15px;
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.email {
+    font-family: "Pacifico", cursive;
+    margin-bottom: 5px;
+}
+
+.password {
+    font-family: "Pacifico", cursive;
+    margin-bottom: 5px;
+}
+
+.input {
+    display: flexbox;
+    align-items: center ;
+    justify-self: initial;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+}
+
+.input:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: brown;
+
+}
+
+.btn:hover {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.a {
+    color: brown;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.a:hover {
+    font-size: 18px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
