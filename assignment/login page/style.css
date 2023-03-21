@@ -65,7 +65,7 @@ a:hover {
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin: 10px 5px;
+    margin: 10px 10px;
 }
     input[type="text"],
     [type="email"],
