@@ -3,8 +3,8 @@ body {
   background: linear-gradient(
     to right bottom,
     lightgreen,
-    rgb(241, 169, 61),
-    rgb(239, 241, 90)
+    lightblue,
+    lightgrey
   );
   min-height: 100vh;
   display: flex;
