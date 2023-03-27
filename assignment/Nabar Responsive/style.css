@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-image: url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply; */
+  /* height: 100vh; */
+  background-color: #2C3333;
+  
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  color: aliceblue;
+}
+.right-navbar {
+  padding: 15px;
+  font-size: 40px;
+}
+.left-navbar {
+  font-weight: 700;
+  margin-right: 50px;
+  position: relative;
+}
+.left-navbar li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+  
+}
+.left-navbar li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.left-navbar ul li a::after{
+  content: '';
+  color: white;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+}
+.left-navbar li a:hover{
+  text-shadow: 8px 8px 5px rgba(255, 255, 255, 0.5);
+  color: aqua;
+}
+#navbar .toggle {
+  display: none;
+}
+
+@media (max-width: 670px) {
+  .left-navbar {
+    display: none;
+  }
+  #navbar .toggle {
+    display: block;
+    position: relative;
+    right: 10px;
+    top: 15px;
+    font-size: 32px;
+    padding: 15px;
+  }
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  
+}
+.desc{
+  color: aliceblue;
+  flex: 1;
+  text-align: center;
+}
+.desc h2{
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+}
+.desc p{
+  font-size: 30px;
+  
+}
+
+.photo{
+  margin-right: 100px;
+}
+.photo img{
+  height: 400px;
+  width: 400px;
+}
