@@ -16,7 +16,7 @@ body {
   color: aliceblue;
 }
 .right-navbar {
-  padding: 15px;
+  /* padding: 15px; */
   font-size: 40px;
 }
 .left-navbar {
@@ -27,7 +27,7 @@ body {
 .left-navbar li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 15px;
   
   
 }
@@ -75,6 +75,18 @@ body {
     font-size: 32px;
     /* padding: 15px; */
   }
+  .container{
+    flex-direction: column-reverse;
+  }
+  .photo{
+    margin: auto;
+  }
+  .desc p{
+    font-size: 20px;
+  }
+  .desc h2{
+    font-size: 30px;
+  }
 }
 
 .container{
@@ -104,18 +116,4 @@ body {
 .photo img{
   height: 400px;
   width: 400px;
-}
-@media (max-width: 800px) {
-  .container{
-    flex-direction: column-reverse;
-  }
-  .photo{
-    margin: auto;
-  }
-  .desc p{
-    font-size: 20px;
-  }
-  .desc h2{
-    font-size: 30px;
-  }
 }
