@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assignment/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " style="background-color: #1d7bbe;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/assignment/bootstrap.html"> Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/assignment/bootstrap.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/assignment/abouts.html">About Company</a></li>
+                            <li><a class="dropdown-item" href="/assignment/aboutem.html">ABout Employee</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/assignment/abtemployee.html">About Our Products</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="contacts d-flex flex-row my-3 w-75 mx-auto bg-secondary">
+        <div class="left col-6 my-auto p-4">
+            <h2 class="text-center">Contacts</h2>
+            <div class="list-group ">
+                <a href="#" class="list-group-item list-group-item-action bg-info" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Phone Numbers:</h5>
+
+                    </div>
+                    <p class="mb-1">+9876543210 , +0123456789</p>
+
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-success">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1"> Email:</h5>
+
+                    </div>
+                    <p class="mb-1">dontemailme@mail.com , pleasedontmail@donotmail.com</p>
+
+                </a>
+                <a href="#" class="list-group-item list-group-item-action  bg-danger">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Website</h5>
+
+                    </div>
+                    <p class="mb-1">thereisnowebsite.com</p>
+
+                </a>
+            </div>
+        </div>
+        <div class="right col-6 p-4">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="username" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="username">
+                </div>
+                <div class="col-md-6">
+                    <label for="useremail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="useremail">
+                </div>
+                <div class="col-12">
+                    <label for="subject" class="form-label">Subject:</label>
+                    <input type="text" class="form-control" id="subject">
+                </div>
+                <div class="col-12">
+                    <label for="queries" class="form-label">Your Queries:</label>
+                    <textarea name="" id="queries" cols="30" rows="10" class="form-control"></textarea>
+
+                </div>
+
+
+                <div class="mx-auto">
+                    <button type="submit" class="btn btn-primary mx ">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+    <script type="text/javascript" src="/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

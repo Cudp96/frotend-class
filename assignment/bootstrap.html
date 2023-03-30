@@ -26,7 +26,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a class="nav-link" href="/assignment/contacts.html">Contacts</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -34,12 +34,12 @@
                             About
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">About Company</a></li>
-                            <li><a class="dropdown-item" href="#">Another Employee</a></li>
+                            <li><a class="dropdown-item" href="/assignment/abouts.html">About Company</a></li>
+                            <li><a class="dropdown-item" href="/assignment/aboutem.html">About Employee</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">About Our Clients</a></li>
+                            <li><a class="dropdown-item" href="/assignment/abtemployee.html">About Our Products</a></li>
                         </ul>
                     </li>
 
@@ -51,8 +51,7 @@
             </div>
         </div>
     </nav>
-    <div id="carouselExampleFade" class=" container carousel slide carousel-fade rounded h-50 mt-4"
-        data-bs-ride="carousel">
+    <div id="carouselExampleFade" class="  carousel slide carousel-fade rounded-3 h-50 mt-4" data-bs-ride="carousel">
         <div class="carousel-inner img">
             <div class="carousel-item active">
                 <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -81,52 +80,54 @@
         </button>
     </div>
     <div class="cards d-flex flex-row justify-content-center mt-5 gap-5 mb-4">
-        <div class="card " style="width: 18rem;">
+        <div class="card card-01" style="width: 18rem;">
             <img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                 class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">About Us</h5>
                 <p class="card-text">Click to know more about us.</p>
-                <a href="#" class="btn btn-primary">About</a>
+                <a href="/assignment/abouts.html" class="btn btn-primary">About</a>
             </div>
         </div>
-        <div class="card" style="width: 18rem; ">
+        <div class="card card-01" style="width: 18rem; ">
             <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Contact Us</h5>
                 <p class="card-text">Click for more queries.</p>
-                <a href="#" class="btn btn-primary">Contact</a>
+                <a href="/assignment/contacts.html" class="btn btn-primary">Contact</a>
             </div>
         </div>
-        <div class="card" style="width: 18rem; ">
+        <div class="card card-01" style="width: 18rem; ">
             <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80"
                 class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"> Let's Start</h5>
-                <p class="card-text" >SignUp / Sign In.</p>
-                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</a>
+                <p class="card-text">SignUp / Sign In.</p>
+                <a href="/assignment/signin.html" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Get Started</a>
             </div>
         </div>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Sign In / Sign Up</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sign In / Sign Up</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Are You Sure to sign in or sign up?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary color"> <a href="/assignment/signin.html">Let's
+                                Goooooooo! </a> </button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                  Are You Sure to sign in or sign up?
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Let's Goooooooo!</button>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
     </div>
-    <div class="progessbar w-75 mx-auto h-50 d-flex justify-content-center flex-column gap-2">
+    <div class="progessbar w-75 mx-auto h-50 d-flex justify-content-center flex-column gap-2 border-2">
         <h2>Skills</h2>
         <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
             aria-valuemax="100">
@@ -143,6 +144,25 @@
         <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
             aria-valuemax="100">
             <div class="progress-bar bg-danger" style="width: 100%"> Enthusiam</div>
+        </div>
+    </div>
+    <div class="container  col-xxl-8 px-4 py-5 mt-5 mb-4">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="https://images.unsplash.com/photo-1537589376225-5405c60a5bd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+                    class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="300" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Our HERO PRODUCT</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium deleniti eaque
+                    fugiat
+                    a, quas totam error facere sed consectetur obcaecati! Recusandae, eveniet! Sed voluptas, blanditiis
+                    optio laboriosam ipsam, voluptatum deserunt quos hic aut fugiat atque!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Check This Out!!!</button>
+
+                </div>
+            </div>
         </div>
     </div>
 

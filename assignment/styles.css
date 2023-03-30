@@ -7,10 +7,23 @@
     border: 1px solid red;
 
 }
-.card{
+.card-01{
     transition: all 0.2 cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.card:hover{
+.card-01:hover{
     box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
+}
+.container{
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.modal-footer{
+    color: white;
+    text-decoration: none;
+}
+.contacts{
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border: 2px solid transparent;
 }
