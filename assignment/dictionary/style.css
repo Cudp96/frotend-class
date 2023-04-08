@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient( to bottom right, lightgrey, lightblue, lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 80%;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+    border-radius:10px;
+    padding: 20px;
+    text-align: center;
+
+}
+.input{
+    border: none;
+    height: 35px;
+    width: 60%;
+    padding: 0px 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+.meaning-container{
+    display: none;
+}
