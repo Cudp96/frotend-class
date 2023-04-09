@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: "montserrat-bold",'Courier New', Courier, monospace;
+    background:linear-gradient(to right, lightblue,lightgreen, lightpink);
+    
+}
+.container{
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"]{
+    padding: 10px;  
+    border:none !important;
+    outline: none !important;
+    font-size: 18px;
+    width: 60%;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+form input[type='submit']{
+    padding: 8px 8px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+form input[type='submit']:hover{
+    background-color: rgb(48, 48, 209);
+    color: white;
+    
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.temperature{
+    font-size: 40px;
+    font-weight: 700;
+}
+.description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.details > div{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    min-height: 45px ;
+    font-size: 22px;
+}
+@media (max-width: 768px) {
+    form{
+        flex-direction: column;
+    }
+    form input[type='text']{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+}
