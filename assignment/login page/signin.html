@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign In</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
     <form class="container">
-        <a href="/assignment/login page/loginpage.html"><i class="fa fa-cloud" style="font-size: 36px" ></i></a>
+        <a href="/assignment/login page/loginpage.html"><i class="fa fa-cloud" style="font-size: 36px"></i></a>
         <div class="heading">Sign Up</div>
         <div class="form-body">
             <div class="row">
                 <div class="input-group">
                     <label for="newname">Name</label>
-                    <input type="text" id="newname">
+                    <input type="text" id="newName">
                 </div>
                 <div class="input-group">
-                    <label for="new-username">User-name</label>
-                    <input type="text" id="new-username">
+                    <label for="newUserName">User-name</label>
+                    <input type="text" id="newUserName">
                 </div>
             </div>
             <div class="row">
                 <div class="input-group">
-                    <label for="user-email">Email</label>
-                    <input type="email" id="user-email">
+                    <label for="useEmail">Email</label>
+                    <input type="email" id="userEmail">
                 </div>
             </div>
             <div class="row">
@@ -42,8 +38,8 @@
                     <input type="password" id="password">
                 </div>
                 <div class="input-group">
-                    <label for="confirm-password"> Confrim Password</label>
-                    <input type="password" id="confirm-password">
+                    <label for="confirmPassword"> Confrim Password</label>
+                    <input type="password" id="confirmPassword">
                 </div>
             </div>
             <div class="row">
@@ -52,28 +48,25 @@
                     <div class="radio-group">
                         <div>
                             <label for="gender">
-                                <input type="radio" name="gender" id="">Male
-                            </label>
+                                <input type="radio" name="gender" value="male" id="male">Male
                         </div>
                         <div>
-                            <label for="">
-                                <input type="radio" name="gender" id="">Female
-                            </label>
+                            <input type="radio" name="gender" value="female" id="female">Female
                         </div>
                         <div>
-                            <label for="">
-                                <input type="radio" name="gender" id="">Other
-                            </label>
+                            <input type="radio" name="gender" value="other" id="other">Other
                         </div>
+                        </label>
                     </div>
                 </div>
-                
+
             </div>
-            <button class="btnsin">Submit</button>
+            <button id="signBtn" class="btnsin">Submit</button>
         </div>
         <a href="/assignment/login page/loginpage.html"> Back to Login Page</a>
     </form>
-   
-    
-  </body>
+
+    <script src="/assignment/login page/index.js"></script>
+</body>
+
 </html>
