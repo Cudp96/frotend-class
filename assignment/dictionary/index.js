@@ -13,7 +13,7 @@ async function fetchAPI(word) {
     // making elements block and none before performing the task 
     infoTextEl.style.display = "block";
     meaningContainerEl.style.display = "none";
-    // Chaning the innertext 
+    // Changing the innertext 
     infoTextEl.innerText = `Searching the meaning of '${word}'`;
     // api url 
     const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;

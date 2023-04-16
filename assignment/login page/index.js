@@ -27,4 +27,5 @@ signBtnEl.addEventListener('click', (e) => {
         gender: selectedGender
     }
     console.log(credentials);
+    localStorage.setItem('credentials', JSON.stringify(credentials));
 })

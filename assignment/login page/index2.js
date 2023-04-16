@@ -12,4 +12,5 @@ btnEl.addEventListener('click', (e) => {
         password: userPassword
     }
     console.log(credentials);
+    localStorage.setItem('credentials', JSON.stringify(credentials));
 })
