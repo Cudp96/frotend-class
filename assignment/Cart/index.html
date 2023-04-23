@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/assignment/Cart/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header"> 
+        <p class="logo">LOGO</p>
+        <div class="cart"> <i class="fa-solid fa-cart-shopping"></i> <p id="count">0</p></div>
+    </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head">
+                <p> My Cart</p> 
+            </div>
+            <div id="cartItems">
+                Your Cart Is Empty.
+            </div>
+            <div class="foot">
+                <h3>TOTAL</h3>
+                <h2 id="totalItems">$ 0.00</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assignment/Cart/index.js"></script>
+</body>
+
+</html>
